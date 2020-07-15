@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: darkolivegreen;
+}
+
+input{
+    text-align: center;
+}
+
+.imagescontainer{
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 3px;  
+}
+
+.top{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: white;
+    top: 10%;
+    background-color: black;
+    padding: 2px;
+}
+
+.bottom{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom:1%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    padding: 2px;
+}
+
+#remove{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 7%;
+}
